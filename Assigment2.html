@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="assigment2.css">
+</head>
+<body>
+    <header id="Home">
+        <h2>ShopEasy</h2>
+        <p>Your simple Online Store</p>
+        <input type="text" placeholder="Search Products...">
+        <button type="button">Cart</button>
+    </header>
+    <main>
+    <nav>
+            <a href="#Home">Home</a>
+            <a href="#Products">Products</a>
+            <a href="#Categories">Categories</a>
+            <a href="#Offers">Offers</a>
+            <a href="#Contact">Contact</a>
+    </nav>
+    <div id="sale">
+        <h2>Big Sale-UP TO 50% OFF</h2>
+        <p>Grab your favourite products today!!</p>
+    </div>
+    <section id="Products">
+    <h2 id="our">OUR PRODUCTS</h2>
+    <div class="product-grid">
+       <div class="product-card">
+        <span class="sale">SALE</span>
+        <img src="510uTHyDqGL.jpg" alt="">
+        <h3>Laptop</h3>
+        <p>powerful laptop</p>
+        <p>&#8377;55000</p>
+        <button type="button">Add to cart</button>
+    </div>
+    <div class="product-card">
+        <span class="sale">SALE</span>
+        <img src="pngtree-wireless-headphone-png-image_15830312.png" alt="Headphones">
+        <h3>Headphones</h3>
+        <p>Wirelees headphones</p>
+        <p>&#8377;2000</p>
+        <button type="button">Add to cart</button>
+    </div>
+    <div class="product-card">
+        <span class="sale">SALE</span>
+        <img src="pngtree-gaming-keyboard-with-red-backlight-and-sleek-design-isolated-on-transparent-png-image_15854742.png" alt="keyboard">
+        <h3>Keyboard</h3>
+        <p>Mechanical keyboard</p>
+        <p>&#8377;1500</p>
+        <button type="button">Add to cart</button>
+    </div>
+    <div class="product-card">
+        <span class="sale">SALE</span>
+        <img src="istockphoto-481616102-612x612.jpg" alt="Smart watch">
+        <h3>Smart Watch</h3>
+        <p>Fitness watch</p>
+        <p>&#8377;3500</p>
+        <button type="button">Add to cart</button>
+    </div>
+    </div>
+    </section>
+    <h2 id="com">Products Comparison</h2>
+    <table id="Categories">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Rating</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptop</td>
+                <td>&#8377;55000</td>
+                <td>4.5</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>Headphones</td>
+                <td>&#8377;2000</td>
+                <td>4.2</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>Keyboard</td>
+                <td>&#8377;1500</td>
+                <td>4.0</td>
+                <td>Out of Stock</td>
+            </tr>
+            <tr>
+                <td>Smart watch</td>
+                <td>&#8377;3500</td>
+                <td>4.3</td>
+                <td>Available</td>
+            </tr>  
+        </tbody> 
+    </table>
+     <h3 style="text-align: center;">Create account</h3>
+     <div style="background-color: beige;" id="form">
+     <form action="" id="Contact">
+        <label for="Name">Name</label>
+        <input type="text" placeholder=""><br><br>
+        <label for="Email">Email</label>
+        <input type="text" placeholder=""><br><br>
+        <label for="Phone">Phone</label>
+        <input type="number"><br><br>
+        <label for="Password">Password</label>
+        <input type="text"><br><br>
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Female" value="Female">
+        <label for="Female">Female</label>
+        <label for="Interested In">Interested In:</label><br>
+        <label for="Electroics">Electroics</label>
+        <input type="checkbox"><br>
+        <label for="Fashion">Fashion</label>
+        <input type="checkbox"><br>
+        <label for="Books">Books</label>
+        <input type="checkbox"><br>
+        <br><br>
+        <select name="City" id="City">
+            <option value="CITY">CITY</option>
+            <option value="GURUGRAM">GURUGRAM</option>
+            <option value="DELHI">DELHI</option>
+            <option value="MUMBAI">MUMBAI</option>
+        </select><br><br>
+        <label for="Address">Address</label>
+        <input type="text"><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+     </form>
+     </div>
+    </main>
+     <footer>
+        <p>2026 ShopEasy</p>
+     </footer>
+</body>
+</html>
